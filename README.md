@@ -10,7 +10,7 @@ Upload Task.cpp inside the Test folder, also make a file Task.cmake
 Then add these lines at the bottom line of caravela.ini which is located in ~dune/source/etc/
 
 [Maneuver.Test]
-Enabled                           = Always
+Enabled                           = Always   
 Entity Label                      = Caravela Plan
 
 then save the file.
