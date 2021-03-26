@@ -5,12 +5,12 @@ Please have a look the github page of LSTS Toolchain https://github.com/LSTS or 
 
 if you are running in your own system, make a folder "Test" inside Maneuver.
 so the directory will be   
-~ dune/source/src/Maneuver/Test   
-Upload Task.cpp inside the Test folder, also make a file Task.cmake
+`~ dune/source/src/Maneuver/Test` 
+Upload Task.cpp inside the Test folder, also make a file `Task.cmake`
 
-Then add these lines at the bottom line of caravela.ini which is located in ~dune/source/etc/
+Then add these lines at the bottom line of caravela.ini which is located in `~dune/source/etc/`
 
-[Maneuver.Test]   
+>[Maneuver.Test]   
 Enabled                           = Always   
 Entity Label                      = Caravela Plan
 
